@@ -1,0 +1,31 @@
+print('hi, aku rojak')
+
+nama = input('nama kamu siapa?: ')
+
+print('salam kenal {0}'.format(nama))
+
+print('mari kita adu kecepatan dalam berhitung')
+
+print('berikan aku angka perkalian tersulit di dunia')
+
+angka1 = input('angka pertama: ')
+
+angka2 = input('angka kedua: ')
+
+sum = int(angka1) * int(angka2)
+
+print('hasil perkalian dari {0} x {1} adalah {2}'.format(angka1, angka2, sum))
+
+print('hahaha ini terlalu mudah untuk ku')
+
+print('sekarang giliranku untuk memberikan pertanyaan')
+
+pertanyaan = input('berapa hasil dari perkalian 12 x 7 ?: ')
+
+if pertanyaan == ('72'):
+
+  print('wow pintar juga anda')
+
+else:
+
+    print('jawaban anda salah, yang benar itu 72')
